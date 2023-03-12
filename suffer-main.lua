@@ -4,15 +4,6 @@ Text = "https://discord.gg/nW7devwSWJ (copied to clipboard)";
 Duration = 3;
 })
 setclipboard("https://discord.gg/nW7devwSWJ")
-while true do
-local args = {
-    [1] = "ALL SCRIPTS IN ONE HUB! PROJECT-SUFFER // DM FOR THE SCRIPT // wxrp//4868",
-    [2] = "All"
-}
-
-game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("SayMessageRequest"):FireServer(unpack(args))
-wait(5)
-end
 wait(3)
 local lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/wxrpie/Project-Suffer/main/ui"))();
 lib:SetTitle("Project - Suffer")
@@ -78,3 +69,13 @@ end)
 tab12:NewButton("Cu",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ItachiPvPUchiha/CuHub/main/yba.lua"))()
 end)
+
+while true do
+local args = {
+    [1] = "ALL SCRIPTS IN ONE HUB! PROJECT-SUFFER // DM FOR THE SCRIPT // wxrp//4868",
+    [2] = "All"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("SayMessageRequest"):FireServer(unpack(args))
+wait(5)
+end

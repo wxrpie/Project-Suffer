@@ -48,8 +48,13 @@ tab7:NewButton("Wally",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/wally-rblx/funky-friday-autoplay/main/main.lua",true))()
 end)
 tab8:NewButton("Vesty",function()
---key is DX8QI4L6MJ7G6GAAES5UV69H
 loadstring(game:HttpGet("https://raw.githubusercontent.com/vestyx/NewVesty/main/PetChanger.lua"))()
+        game.StarterGui:SetCore("SendNotification", {
+Title = "Vesty";
+Text = "key is DX8QI4L6MJ7G6GAAES5UV69H (copied to clipboard)";
+Duration = 3;
+})
+        setclipboard("DX8QI4L6MJ7G6GAAES5UV69H")
 end)
 tab9:NewButton("Zen",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Kaizenofficiall/ZenHub/main/Roghoul", true))()
